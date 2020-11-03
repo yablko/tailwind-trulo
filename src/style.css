@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+	.text-shadow {
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+	}
+}
+
 @layer components {
+	/**
+	 * CARDS
+	 */
 	.card {
-		@apply my-2 p-3 leading-snug bg-white border-b border-gray-400 cursor-pointer rounded;
+		@apply my-2 leading-snug bg-white border-b border-gray-400 cursor-pointer rounded;
 	}
 
+	/**
+	 * LISTS
+	 */
 	.card:hover {
 		@apply bg-gray-100;
 	}
@@ -22,6 +34,22 @@
 
 		/* special stuff */
 		@apply rounded-lg shadow-xl;
+	}
+
+	/**
+	 * BUTTONS
+	 */
+	.btn {
+		@apply font-semibold text-white border-b border-gray-600 py-1 px-3 text-shadow rounded;
+	}
+
+	.btn-green {
+		@apply bg-green-500;
+	}
+
+	.btn-green:hover,
+	.btn-green:active {
+		@apply bg-green-400;
 	}
 
 	@screen sm {
