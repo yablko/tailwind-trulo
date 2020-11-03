@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+			screens: {
+				'sm': '420px',
+			},
+		},
   },
   variants: {
     extend: {},
