@@ -14,7 +14,7 @@
 	.list {
 		/* size */
 		@apply flex-shrink-0;
-		@apply w-80 mx-4 p-3 pb-2;
+		@apply w-full mb-10 p-3 pb-2;
 
 		/* colors */
 		@apply bg-gray-200;
@@ -22,5 +22,11 @@
 
 		/* special stuff */
 		@apply rounded-lg shadow-xl;
+	}
+
+	@screen sm {
+		.list {
+			@apply w-80 mx-4 mb-0;
+		}
 	}
 }
