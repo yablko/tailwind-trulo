@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.card {
+		@apply my-2 p-3 leading-snug bg-white border-b border-gray-400 cursor-pointer rounded;
+	}
+
+	.card:hover {
+		@apply bg-gray-100;
+	}
+
+	.list {
+		/* size */
+		@apply flex-shrink-0;
+		@apply w-80 mx-4 p-3 pb-2;
+
+		/* colors */
+		@apply bg-gray-200;
+		@apply text-gray-800;
+
+		/* special stuff */
+		@apply rounded-lg shadow-xl;
+	}
+}
