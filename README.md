@@ -12,6 +12,9 @@ A dostaneš ďalšie kurzy skôr. Aj v textovej podobe.
 
 [![youtube tutorial link](play.this.vid.jpg)](https://youtu.be/5mgrioodze8)
 
+### Toto vyrobíme  
+:: https://yablko.github.io/tailwind-trulo/public/index.html
+
 ---
 
 Tailwind CSS  
