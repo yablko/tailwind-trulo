@@ -4,7 +4,10 @@
 
 ---
 
+### Tailwind CSS kurz  
+:: https://youtu.be/5mgrioodze8
 
+[![youtube tutorial link](play.this.vid.jpg)](https://youtu.be/5mgrioodze8)
 
 ---
 
