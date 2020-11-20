@@ -16,7 +16,7 @@ A dostaneš ďalšie kurzy skôr. Aj v textovej podobe.
 
 Tailwind CSS  
 https://tailwindcss.com  
-https://tailwindcss.com/components 
+https://tailwindcss.com/docs
   
 Tailwind PLAYGROUND  
 https://play.tailwindcss.com  
